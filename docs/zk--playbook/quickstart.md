@@ -86,7 +86,7 @@ cargo run --release -- --mode plonk --prove
 Use the included script to verify your JSON proof inside Node.js (browser-compatible).
 
 ```bash
-cd example/WASM_verifier
+cd examples/WASM_verifier
 pnpm install
 pnpm run test
 ```
@@ -104,7 +104,7 @@ CONTRACT_ADDRESS=The contract address
 2. Run the script:
 
 ```bash
-cd example/solidity-verifier
+cd examples/solidity-verifier
 cargo run --release
 Output: Transaction receipt confirming your proof was verified and attested onchain.
 ```
