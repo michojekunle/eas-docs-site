@@ -103,13 +103,11 @@ CONTRACT_ADDRESS=The contract address
 ```
 2. Run the script:
 
-bash
-Copy
-Edit
+```bash
 cd example/solidity-verifier
 cargo run --release
 Output: Transaction receipt confirming your proof was verified and attested onchain.
-
+```
 
 ## How This Works (Under the Hood)
 Key components of the toolkit:
