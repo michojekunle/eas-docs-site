@@ -76,7 +76,7 @@ wasm-pack build --target nodejs --dev
 Run the age-checking program in SP1 to produce two ZK proofs.
 
 ```bash
-cd example/dob-script
+cd examples/dob/dob-script
 cargo run --release -- --mode groth16 --prove
 cargo run --release -- --mode plonk --prove
 ```
